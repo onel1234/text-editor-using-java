@@ -4,10 +4,8 @@
  */
 package javatexteditor;
 
-/**
- *
- * @author USER
- */
+import javax.swing.JTextArea;
+
 public class FEdit {
     
 }
