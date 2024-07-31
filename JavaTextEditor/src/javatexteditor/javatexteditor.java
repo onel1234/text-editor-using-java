@@ -22,7 +22,7 @@ public class javatexteditor extends JTextPane {
     		e.printStackTrace();
     	}
     	
-        //new UI().setVisible(true);
+        new UI().setVisible(true);
     }
 
 }
