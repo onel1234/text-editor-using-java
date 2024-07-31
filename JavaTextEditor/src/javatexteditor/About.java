@@ -36,16 +36,16 @@ public class About {
     }
 
     public void me() {
-        frame.setTitle("About Me - " + SimpleJavaTextEditor.NAME);
+        frame.setTitle("About Me - " + javatexteditor.NAME);
 
         contentText =
         "<html><body><p>" +
         "Author: Pierre-Henry Soria<br />" +
         "Contact me at: " +
-        "<a href='mailto:" + SimpleJavaTextEditor.AUTHOR_EMAIL + "?subject=About the NotePad PH Software'>" + SimpleJavaTextEditor.AUTHOR_EMAIL + "</a>" +
+        "<a href='mailto:" + javatexteditor.AUTHOR_EMAIL + "?subject=About the NotePad PH Software'>" + javatexteditor.AUTHOR_EMAIL + "</a>" +
                 "<br /><br />" +
                 "Modified By: Achintha Gunasekara<br />" +
-                "Contact me at: <a href='mailto:" + SimpleJavaTextEditor.EDITOR_EMAIL + "?subject=About the NotePad PH Software'>" + SimpleJavaTextEditor.EDITOR_EMAIL + "</a>" +
+                "Contact me at: <a href='mailto:" + javatexteditor.EDITOR_EMAIL + "?subject=About the NotePad PH Software'>" + javatexteditor.EDITOR_EMAIL + "</a>" +
         "</p></body></html>";
 
         text.setText(contentText);
@@ -54,12 +54,12 @@ public class About {
     }
 
     public void software() {
-        frame.setTitle("About Me - " + SimpleJavaTextEditor.NAME);
+        frame.setTitle("About Me - " + javatexteditor.NAME);
 
         contentText =
         "<html><body><p>" +
-        "Name: " + SimpleJavaTextEditor.NAME + "<br />" +
-        "Version: " + SimpleJavaTextEditor.VERSION +
+        "Name: " + javatexteditor.NAME + "<br />" +
+        "Version: " + javatexteditor.VERSION +
         "</p></body></html>";
 
         text.setText(contentText);
