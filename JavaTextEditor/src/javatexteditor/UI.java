@@ -572,7 +572,7 @@ public class UI extends JFrame implements ActionListener {
         if (option == JFileChooser.APPROVE_OPTION) {
             try {
                 File openFile = fileChoose.getSelectedFile();
-                setTitle(openFile.getName() + " | " + SimpleJavaTextEditor.NAME);
+                setTitle(openFile.getName() + " | " + javatexteditor.NAME);
 
                 BufferedWriter out = new BufferedWriter(new FileWriter(openFile.getPath()));
                 out.write(textArea.getText());
