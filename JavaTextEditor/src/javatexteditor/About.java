@@ -40,11 +40,11 @@ public class About {
 
         contentText =
         "<html><body><p>" +
-        "Author: Pierre-Henry Soria<br />" +
+        "Author: COHNDSE24.1F batch<br />" +
         "Contact me at: " +
         "<a href='mailto:" + javatexteditor.AUTHOR_EMAIL + "?subject=About the NotePad PH Software'>" + javatexteditor.AUTHOR_EMAIL + "</a>" +
                 "<br /><br />" +
-                "Modified By: Achintha Gunasekara<br />" +
+                "Modified By: Sithum Vindana<br/> Wathila Ranaweera <br/> Saritha Indeera <br/> Thejan Wijesundara<br/>" +
                 "Contact me at: <a href='mailto:" + javatexteditor.EDITOR_EMAIL + "?subject=About the NotePad PH Software'>" + javatexteditor.EDITOR_EMAIL + "</a>" +
         "</p></body></html>";
 
